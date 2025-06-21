@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <button id="toggle-theme">🌙 Toggle Theme</button>
+
   <div class="container">
     <img src="profile.jpg" alt="Abdulrahaman Idriss" class="profile-img">
     <h1>Abdulrahaman Idriss</h1>
@@ -19,9 +21,37 @@
 
     <div class="social-links">
       <a href="https://github.com/Abdulyobe" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-      <a href="https://twitter.com/" target="_blank">Twitter</a>
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
     </div>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul>
+        <li>🌐 Personal Portfolio Website</li>
+        <li>📱 Mobile App Mockup</li>
+        <li>⚙️ Simple JavaScript Calculator</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:abdulrahaman@example.com">abdulrahaman@example.com</a></p>
+      <p>WhatsApp: <a href="https://wa.me/2341234567890" target="_blank">Chat with me</a></p>
+    </section>
   </div>
+
+  <!-- Optional: Background music -->
+  <audio autoplay loop hidden>
+    <source src="https://www.bensound.com/bensound-music/bensound-ukulele.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    // Dark/Light Theme Toggle
+    const toggleBtn = document.getElementById("toggle-theme");
+    toggleBtn.addEventListener("click", () => {
+      document.body.classList.toggle("light-mode");
+    });
+  </script>
 </body>
 </html>
