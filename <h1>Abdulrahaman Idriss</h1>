@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abdulrahaman Idriss</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Abdulrahaman Idriss</h1>
+    <h2>Web Developer | Creative Builder</h2>
+    <p>Welcome to my personal website. Stay tuned for projects and updates!</p>
+  </div>
+</body>
+</html>
