@@ -7,9 +7,21 @@
 </head>
 <body>
   <div class="container">
+    <img src="profile.jpg" alt="Abdulrahaman Idriss" class="profile-img">
     <h1>Abdulrahaman Idriss</h1>
     <h2>Web Developer | Creative Builder</h2>
-    <p>Welcome to my personal website. Stay tuned for projects and updates!</p>
+    <p>Welcome to my personal website. Let's build something amazing together!</p>
+
+    <div class="buttons">
+      <a href="#contact" class="btn">Contact Me</a>
+      <a href="#projects" class="btn btn-alt">View Projects</a>
+    </div>
+
+    <div class="social-links">
+      <a href="https://github.com/Abdulyobe" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+      <a href="https://twitter.com/" target="_blank">Twitter</a>
+    </div>
   </div>
 </body>
 </html>
